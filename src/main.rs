@@ -1,6 +1,7 @@
 #![allow(unused)]
 
 mod closures;
+mod iterators;
 
 fn main() {
     topic::introduce();
