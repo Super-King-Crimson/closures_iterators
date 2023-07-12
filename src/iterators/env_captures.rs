@@ -8,7 +8,9 @@ and many of these closures will take something from their environment");
     let vec_iter = vec.iter();
 
     let search_for = '!';
+    //This immutably captures search_for
     let contains: Vec<_> = vec_iter.filter(|s| s.contains(search_for)).collect();
 
-    println!("{:?}", contains);
+    println!("All characters in this list\n-----------\n{:#?}\n-----------", contains);
+    println!("contain '{search_for}'");
 }
