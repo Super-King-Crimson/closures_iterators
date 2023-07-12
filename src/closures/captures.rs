@@ -21,7 +21,8 @@ pub fn explain() {
 
     //To control what happens to captured values in a closure, use traits
     //FnOnce: can be called once (all closures implement this)
-        //A closure that just moves captured values out of its body will only implement FnOnce, because it can only be called once
+        //A closure that just moves captured values out of its body will only implement FnOnce, 
+        //because it can only be called once
     //FnMut: can't move captures out of body, but may mutate captured values
     //Fn: don't move captured values out of body, don't mutate captured values, or don't capture anything
 

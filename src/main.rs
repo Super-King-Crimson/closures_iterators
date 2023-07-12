@@ -6,6 +6,7 @@ mod iterators;
 fn main() {
     topic::introduce();
     closures::explain();
+    iterators::explain();
 }
 
 mod topic {
