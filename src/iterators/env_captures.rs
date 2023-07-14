@@ -13,4 +13,6 @@ and many of these closures will take something from their environment");
 
     println!("All characters in this list\n-----------\n{:#?}\n-----------", contains);
     println!("contain '{search_for}'");
+
+    super::back_to_main4();
 }

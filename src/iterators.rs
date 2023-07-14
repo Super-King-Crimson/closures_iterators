@@ -4,6 +4,7 @@ pub mod r#trait;
 pub mod methods;
 pub mod iterator_adaptors;
 pub mod env_captures;
+pub mod performance;
 
 pub fn explain() {
     println!("An iterator performs a task on a sequence of items.");
@@ -47,4 +48,8 @@ fn back_to_main2() {
 
 fn back_to_main3() {
     env_captures::explain();
+}
+
+fn back_to_main4() {
+    performance::explain();
 }
